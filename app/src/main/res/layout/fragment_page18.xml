@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/health"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_liner"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="4"
+                        android:id="@+id/prev"
+                        android:src="@drawable/prev" />
+                    <TextView
+                        android:id="@+id/title_d"
+                        android:text="Indication for Thrombectomy"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark">
+
+                </LinearLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Age"
+                            android:id="@+id/checkBox1"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+
+                        <CheckBox
+                            android:id="@+id/checkBox2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+                            android:text="Pre-morbid function"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Stroke severity"
+                            android:id="@+id/checkBox3"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:textSize="18sp"
+                            android:id="@+id/checkBox4"
+                            android:text="Tandem occlusion of the internal carotid artery"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Distal MCA (M2) occlusion"
+                            android:id="@+id/checkBox5"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:id="@+id/checkBox6"
+                            android:text="Time"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Core volume:"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:textSize="16sp"
+                            android:id="@+id/checkBox7"
+                            android:text="Patients with ASPECTS 6–10 definitely benefit."
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:textSize="16sp"
+                            android:id="@+id/checkBox8"
+                            android:text="Patients with CTP core &lt;70 mL definitely benefit."
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="16sp"
+                            android:id="@+id/checkBox9"
+                            android:text="Diffusion MRI"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Other imaging parameters:"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="16sp"
+                            android:text="Collateral grade"
+                            android:id="@+id/checkBox10"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="16sp"
+                            android:text="Clot length"
+                            android:id="@+id/checkBox11"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="16sp"
+                            android:id="@+id/checkBox12"
+                            android:text="Residual anterograde flow"
+                            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/gonext"
+                android:text="next"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

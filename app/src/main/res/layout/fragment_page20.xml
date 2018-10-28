@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/health"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_liner"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="4"
+                        android:id="@+id/prev"
+                        android:src="@drawable/prev" />
+                    <TextView
+                        android:id="@+id/title_d"
+                        android:text="NIHSS Score"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:clickable="false"
+                            android:text="NIHSS score = (0 – 5]"
+                            android:id="@+id/checkBox1"
+                            android:layout_marginLeft="10dp"   android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:id="@+id/checkBox2"
+                            android:clickable="false"
+                            android:text=" NIHSS score = (5 – 25]"
+                            android:layout_marginLeft="10dp"   android:layout_marginRight="10dp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:id="@+id/checkBox3"
+                            android:clickable="false"
+                            android:text=" NIHSS score = 25 &lt;"
+                            android:layout_marginLeft="10dp"   android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="next"
+                android:id="@+id/gonext"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

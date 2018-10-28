@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/toolbar"
+    android:id="@+id/toolbar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/toolbar"
+        android:id="@+id/toolbar_main"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:src="@drawable/navig"
+                android:id="@+id/navigation"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIHSS : "
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:id="@+id/toolbar_text"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1.9"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="-10dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/nihss_puan"
+                    android:layout_weight="4.5"/>
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/question"
+                    android:id="@+id/helpf"
+                    android:layout_marginEnd="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

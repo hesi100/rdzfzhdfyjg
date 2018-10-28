@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00ead3</color>
+    <color name="toolbar">#1645ff</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffe600</color>
+    <color name="back_act">#68d6d6d6</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0e0e</color>
+    <color name="fragcolor">#0edfff</color>
+    <color name="want">#00fdffff</color>
+    <color name="orange">#FF5600</color>
+    <color name="nafti">#001aff</color>
+
+</resources>

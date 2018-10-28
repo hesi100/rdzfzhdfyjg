@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_t">
+        <item>-------</item>
+        <item>Times New Roman</item>
+        <item> Segeo print </item>
+        <item> Footlight </item>
+    </string-array>
+</resources>
